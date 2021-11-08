@@ -1,0 +1,33 @@
+.galerySection
+    display: grid
+    grid-template-columns: 1fr 1fr
+    justify-items: center
+    row-gap: .5rem
+    width: 90%
+    margin: 0 auto
+    .card
+        box-sizing: border-box
+        width: 95%
+        &__image
+            box-sizing: border-box
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 100%
+            padding: 1rem
+            border-top-left-radius: .5rem
+            border-top-right-radius: .5rem
+            img
+                width: 100%
+                min-height: 110px
+                min-width: 110px
+        &__info
+            padding: .5rem
+            background-color: $blanco
+            border-bottom-left-radius: .5rem
+            border-bottom-right-radius: .5rem
+            h4
+                font-size: 14px
+                font-weight: 400
+                text-align: center
+                white-space: nowrap
