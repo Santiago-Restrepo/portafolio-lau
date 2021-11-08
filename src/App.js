@@ -13,50 +13,57 @@ import {Contact} from './pages/Contact';
 import {NotFound} from './pages/NotFound';
 import { Menu } from './components/Menu';
 
-
 export const App = () => {
 
     const [ content, setContent ] = useState([{
         "name": "Limoncito bonito",
         'color': "#F3B8BF",
         "bgColor": "#F3B8BF",
-        "imageUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1e07eef6-c899-429a-9d5a-47eeae704b4b/Untitled.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T032632Z&X-Amz-Expires=86400&X-Amz-Signature=4ca34b8e7d00fd2929d17f322f6cc90009f740fd50c2f34215ce107ac58e05d1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.jpeg%22"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/analitics-greazy.appspot.com/o/WhatsApp%20Image%202021-11-06%20at%2010.03.10%20PM.jpeg?alt=media&token=4448ef85-bf6d-4c5e-936b-155966591b34",
+        "hrefUrl": "https://www.instagram.com/p/CVWrY25D4Ve/"
     },
     {
         "name": "Orejas puntiagudas",
         'color': "#C79350",
         "bgColor": "#C37100",
-        "imageUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4829022b-2fd6-4511-8e88-6525c7ec8f95/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T034948Z&X-Amz-Expires=86400&X-Amz-Signature=e3bcaa8eb9f47ddde854dfc78e49877b4bf64c33963442cd1176a10a1acedba6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/analitics-greazy.appspot.com/o/WhatsApp%20Image%202021-11-06%20at%2010.03.36%20PM.jpeg?alt=media&token=6fac6b3d-1dfc-4669-9fd7-84a9ff118afa",
+        "hrefUrl": "https://www.instagram.com/p/CTUyeZ8nS69/"
     },{
         "name": "Un autoretrato más",
         'color': "#D4C2AF",
         "bgColor": "#FFE9D3",
-        "imageUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9164e581-0a3d-471e-9321-e02b27d8c396/Untitled.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T035634Z&X-Amz-Expires=86400&X-Amz-Signature=de1aea852ede3da12b3f9ae8eddb1412547638d026c17ed9790761e5289d1204&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.jpeg%22"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/analitics-greazy.appspot.com/o/WhatsApp%20Image%202021-11-06%20at%2010.04.45%20PM.jpeg?alt=media&token=aaf5fc5f-0caa-4c4f-aa5a-ab929609287d",
+        "hrefUrl": "https://www.instagram.com/p/CQun-9Sj_Rz/"
     },{
         "name": "#soscolombia",
         'color': "#5E5E5E",
         "bgColor": "#363636",
-        "imageUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/50a2dad5-3837-4d68-b8ca-d476dfaaeb8b/Untitled.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T040641Z&X-Amz-Expires=86400&X-Amz-Signature=e250ef2c1e250481b406897004e94dd59e7deebc9e4a837d0a124236041a310d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.jpeg%22"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/analitics-greazy.appspot.com/o/WhatsApp%20Image%202021-11-06%20at%2010.04.57%20PM.jpeg?alt=media&token=65a9a1a0-0ea6-4d33-a622-1bbea92cbe8a",
+        "hrefUrl": "https://www.instagram.com/p/COb5ZjRjS3N/"
     },{
         "name": " sin contexto",
         'color': "#DCB784",
         "bgColor": "#704C39",
-        "imageUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0dd8fef5-e880-4543-9cb1-133595e13792/Untitled.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T040756Z&X-Amz-Expires=86400&X-Amz-Signature=430e5e2978eac61bbeed06b4d8143828dfabff9929c582b2ced08adbd23d6ede&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.jpeg%22"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/analitics-greazy.appspot.com/o/WhatsApp%20Image%202021-11-06%20at%2010.05.14%20PM.jpeg?alt=media&token=bf371ef4-a26d-46b6-9446-d91e603bc2f1",
+        "hrefUrl": "https://www.instagram.com/p/CNah4v-n-Gm/"
     },{
         "name": "Feminicidios",
         'color': "#D99DF3",
         "bgColor": "#D668FF",
-        "imageUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5fe09e06-b268-41fa-a1a6-566fc54866fa/Untitled.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T041038Z&X-Amz-Expires=86400&X-Amz-Signature=07269cbc8a11191c619f46f99ef3da3bbfd5df544a4e2504efb84d5a106717ad&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.jpeg%22"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/analitics-greazy.appspot.com/o/WhatsApp%20Image%202021-11-06%20at%2010.07.55%20PM.jpeg?alt=media&token=270ebfca-c30a-475a-a7fa-0182c5071514",
+        "hrefUrl": "https://www.instagram.com/p/CMKe4WfHEn8/"
     },{
         "name": "Sí, sin tilde.",
         'color': "#B68B8A",
         "bgColor": "#E2CBCB",
-        "imageUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ec6a67c1-2b51-46c6-abd6-2bb322971c03/Untitled.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T041311Z&X-Amz-Expires=86400&X-Amz-Signature=60e6b7ef76890c68a8d2c2b6697756270dc01558f920dd8fa52098ca5ee252a7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.jpeg%22"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/analitics-greazy.appspot.com/o/WhatsApp%20Image%202021-11-06%20at%2010.08.13%20PM.jpeg?alt=media&token=c87fdf9a-7012-4466-8311-ad09d3ed2ca4",
+        "hrefUrl": "https://www.instagram.com/p/CFEGsg1jSTM/"
     },{
         "name": "100 seguidores",
         'color': "#FFB3C1",
         "bgColor": "#FFDDCD",
-        "imageUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5f290ee2-fee8-4fde-9e34-2fcf4991dfc7/Untitled.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20211107%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20211107T043215Z&X-Amz-Expires=86400&X-Amz-Signature=f16f66950e409c8327d0361101d2d6cfa8c485f30f7ffad9e672672ce95ea1cc&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.jpeg%22"
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/analitics-greazy.appspot.com/o/WhatsApp%20Image%202021-11-06%20at%2010.08.31%20PM.jpeg?alt=media&token=99c17986-d2d9-4030-9758-91913c41b7a6",
+        "hrefUrl": "https://www.instagram.com/p/CD98Sf4jT9I/"
     } ]);
 
     // useEffect(() => { 
@@ -103,12 +110,12 @@ export const App = () => {
 
                 </Switch>
             </HashRouter>
-            <footer>
+            <footer className="footer__icons--social">
                 <a href="https://www.instagram.com/ofiartes/?hl=es" target="_blank" rel="nofollow noopener noreferrer">
-                    <FaFacebookF className="footer__icons--social--instagram"/>
+                    <FaFacebookF className="footer__icons--social--facebook"/>
                 </a>
                 <a href="https://www.instagram.com/ofiartes/?hl=es" target="_blank" rel="nofollow noopener noreferrer">
-                    <FaWhatsappSquare className="footer__icons--social--instagram"/>
+                    <FaWhatsappSquare className="footer__icons--social--whatsapp"/>
                 </a>
                 <a href="https://www.instagram.com/ofiartes/?hl=es" target="_blank" rel="nofollow noopener noreferrer">
                     <FaInstagramSquare className="footer__icons--social--instagram"/>

@@ -1,4 +1,5 @@
 import React from 'react';
+import('./style.sass')
 
 export const Input = ({label,placeholder}) => {
     return (

@@ -15,6 +15,10 @@ export const Menu = ({status, setMenuState}) => {
             document.querySelector(".contact").click();
         }
 
+        // if (document.querySelector(".active").getBoundingClientRect().x - 1 == document.querySelector(".menu").getBoundingClientRect().x) {
+        //         document.querySelector(".active").nextElementSibling.click();
+        // }
+
 
     }
 

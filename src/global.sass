@@ -18,13 +18,16 @@ $amarillo: #F9E26E
     margin: 0
     padding: 0
 
+button
+    cursor: pointer
+
 body
     background-color: $blanco-variable
 
-h1,h2,h3
+h1,h2,h3,button
     font-family: $principal
 
-h4,h5,h6,p,a
+h4,h5,h6,p,a,label,input,::placeholder
     font-family: $secundaria
 
 h3
@@ -41,35 +44,50 @@ h4
         color: $naranja
     &__subtitle
         font-weight: 300
-        color: $naranja
-footer
+        color: $naranja    
+.footer__icons--social
     box-sizing: border-box
     display: flex
     justify-content: center
     align-items: center
     width: 90%
+    max-width: 40rem
     margin: 1rem auto
-    padding: 1.5rem
+    padding: .5rem 0
     border: 1px solid $gris
     border-radius: 1rem
     background-color: $blanco
     a
-        margin: 0 .5rem
-        font-size: 2rem
-        height: fit-content
+        margin: .5rem
         svg
-            width: 100%
-            height: 100%
-            path
-                border-radius: .5rem
-                width: 2rem
-                height: 2rem
-    a:nth-of-type(1)
-        color: $blanco
-    a:nth-of-type(1)
-        svg
-            background-color: $azul
-    a:nth-of-type(2)
-        color: $verde
-    a:nth-of-type(3)
-        color: $amarillo
+            cursor: pointer
+        .footer__icons--social--facebook
+            background-color: $azul 
+            color: $blanco
+            width: 1.375rem
+            height: 1.375rem
+            padding: 0.338rem
+            border-radius: 0.438rem
+        .footer__icons--social--whatsapp
+            color: $verde
+            width: 2.25rem
+            height: 2.25rem
+            border-radius: 0.625rem
+        .footer__icons--social--instagram
+            color: $amarillo
+            width: 2.25rem
+            height: 2.25rem
+            border-radius: 0.625rem
+@media screen and (min-width:768px)
+    .footer__icons--social
+        margin-top: 3rem
+        a
+            .footer__icons--social--facebook
+                width: 2.3rem
+                height: 2.3rem
+            .footer__icons--social--whatsapp
+                width: 3.25rem
+                height: 3.25rem
+            .footer__icons--social--instagram
+                width: 3.25rem
+                height: 3.25rem

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Input } from '../../components/Input';
+import './style.sass'
 
 export const Contact = () => {
     return (
