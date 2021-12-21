@@ -23,4 +23,4 @@ CONTENFUL_TOKEN=
 ## Contributors ✒️
 
 * [Santiago Restrepo](https://github.com/Santiago-Restrepo) - *Development | Design | Deploy | Documentation*
-* [Laura Zuluaga](https://github.com/lauracadabra) - *Design*
+* [Laura Zuluaga](https://twitter.com/lauracadabra) - *Design*
