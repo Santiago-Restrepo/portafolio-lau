@@ -12,15 +12,12 @@ Web portfolio for the great designer Laura Zuluaga. Here is all her work and des
 ### Production 📦
 1. `npm run build` -> Compiling WebPack in production mode
 
-### 🔐 Variables de entorno
-> Para utilizar el proyecto es necesario contar con las siguientes variables de entorno:
+### 🔐 Environment variables
+> to use this project you need to have the following structure in your .env:
 
 ````env
 CONTENFUL_SPACE=
 CONTENFUL_TOKEN=
-
-EMAIL=
-PASSW=
 ````
 
 ## Contributors ✒️
