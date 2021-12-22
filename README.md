@@ -3,7 +3,7 @@
 Web portfolio for the great designer Laura Zuluaga. Here is all her work and designs, all the ilustrations are fetching from contentful and displayed using react JS and other web languages.
 
 #### Classes metodology used: BEM
-> Bloque__Elemento--modificador
+> Block__Element--modifier
 
 ## 💻 Deployment
 
